@@ -1,0 +1,280 @@
+    1  print(hello_world)
+    2  git config --global user.name "Collin Makwala"
+    3  git config --global user.email collinmakwala@gmail.com
+    4  git config --global core.editor "code --wait"
+    5  git config --global -e
+    6  git config --global core.autocrlf true
+    7  cd Git Practic
+    8  dc "Git Practice
+    9  cd "Git Practice"
+   10  cd C:\Users\colli\OneDrive\Documents
+   11  cd C:\Users\colli\OneDrive\Documents
+   12  cd "\Users\colli\OneDrive\Documents"
+   13  cd \Users\colli\OneDrive\Documents
+   14  cd \Users\colli\OneDrive\Document\Git Practice
+   15  cd \Users\colli\OneDrive\Document\Git Practice
+   16  cd "\Users\colli\OneDrive\Document\Git Practice"
+   17  cd C:\Users\colli\OneDrive\Documents\Git Practice
+   18  cd "C:\Users\colli\OneDrive\Documents\Git Practice"
+   19  git init
+   20  mkdir Moon
+   21  cd Moon
+   22  git init
+   23  echo hello > file1.txt
+   24  echo hello > file2.txt
+   25  git status
+   26  git add .
+   27  git status
+   28  echo world >> file1.txt
+   29  git status
+   30  git add file1.txt
+   31  git status
+   32  git commit
+   33  ls
+   34  rm file2.txt
+   35  git status
+   36  git add file2.txt
+   37  git status
+   38  git commit -m "remove unsed code"
+   39  ls
+   40  mv file1.txt main.js
+   41  git status
+   42  git add file1.txt
+   43  git add main.js
+   44  git status
+   45  git commit -m "raname file1.txt to main.js"
+   46  git mv main.js file.js
+   47  git status
+   48  git commit -m "ranaming"
+   49  mkdr logs
+   50  mkdir logs
+   51  echo hello > logs/dev.log
+   52  git status
+   53  .gitignore
+   54  .gitignore
+   55  .gitignore
+   56  code .gitignore
+   57  echo logs/ > .gitignore
+   58  code .gitignore
+   59  git status
+   60  git add .gitignore
+   61  fit commit -m "add gitignore"
+   62  fit commit -m "add gitignore"
+   63  git commit -m "add gitignore"
+   64  git status
+   65  echo word > file.js
+   66  echo nums > file2.js
+   67  gir status -s
+   68  git status -s
+   69  git add file.js
+   70  git status -s
+   71  echo ocean >> file.js
+   72  git status -s
+   73  git add file.js
+   74  git status -s
+   75  git add file2.js
+   76  git status -s
+   77  git diff --staged
+   78    code file.js
+   79  git diff
+   80  git status -s
+   81  git config --global diff.tool vscode
+   82  git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+   83  git config --global -e
+   84  git difftool
+   85  git difftool --staged
+   86  git log
+   87   git show ddea
+   88  git log --oneline
+   89  git shoew 9a8
+   90  git show 9a8
+   91  git show 9a879
+   92  git show .gitignore
+   93  git ld-tree
+   94  git ls--tree HEAD~1
+   95  git ls-tree HEAD~1
+   96  git restore --staged file.js
+   97  git status
+   98  git status -s
+   99  git restore  -staged file2
+  100  git restore --staged file2.js
+  101  git status -s
+  102  git restore file.js
+  103  git restore .
+  104  git status -s
+  105  git clean
+  106  git clean -h
+  107  git clean -fd
+  108  git status -s
+  109  ls
+  110  ls /data
+  111  ld /Documents
+  112  ls Docunents/
+  113  ls /Cookies
+  114  ls /Cookies@
+  115  ls /
+  116  ls
+  117  pwd
+  118  cd home
+  119  cd user
+  120  cd moon
+  121  cd ..
+  122  cd ..
+  123  cd moon
+  124  cd Git Practice
+  125  cd "Git Practice"
+  126  dc moon
+  127  cd moon
+  128  cd ../..
+  129  cd ../../../moon
+  130  cd /moon
+  131  cd "Git Practice" 
+  132  cd moon
+  133  cd /Documents
+  134  dc Documents
+  135  cd Documents
+  136  cd ../../../Documents
+  137  cd /
+  138  pwd
+  139  cd ~
+  140  pwd
+  141  cd
+  142  cd /
+  143  cd ~/"Git Practice"
+  144  cd ~/moon
+  145  cd ~/Documents
+  146  cd "Git Practice"
+  147  ls ../../
+  148  ls
+  149  ls -l
+  150  ls -r
+  151  ls -R
+  152  ls -l -t -r
+  153  ls -1h
+  154  man man
+  155  cd ~
+  156  man man
+  157  man cd
+  158  cd home 
+  159  cd home -h
+  160  man man
+  161  man ls
+  162  rm -i bob
+  163  ls
+  164  rm -i bob/
+  165  rm -r bob
+  166  ls 
+  167  ls
+  168  rm -i -r col
+  169  ;s
+  170  ls
+  171  rm -h
+  172  rm --help
+  173  pwd
+  174  rm --h
+  175  man --h
+  176  touch try/
+  177  cd go/
+  178  mkdir try
+  179  cd try
+  180  mv file.js try/
+  181  cd moon
+  182  cd Moon
+  183  dc ..
+  184  cd ..
+  185  mv file.js try/
+  186  cd try
+  187  ls
+  188  mv . Moon/
+  189  mv file.js Moon/
+  190  cd ..
+  191  mv file.js Moon/
+  192  mkdir try2
+  193  cd try
+  194  mv try2 try
+  195  cd moon
+  196  cd Moon
+  197  pwd
+  198  cd ..
+  199  mv try2 try
+  200  cd try
+  201  ls
+  202  ls -1
+  203  ls -l
+  204  cd
+  205  pwd
+  206  cd Moon/
+  207  cd ../Moon
+  208  clear
+  209  mkdir git-basic-exercises
+  210  cd git-basic-exercises
+  211  cd ..
+  212  cd git-basic-exercises/
+  213  clear
+  214  ls
+  215  ls -a
+  216  git init
+  217  ls -a
+  218  git status
+  219  touch README.md
+  220  ls
+  221  ls -a
+  222  git status
+  223  git log
+  224  git add README.md 
+  225  git status 
+  226  git status --help
+  227  git status -s
+  228  git reset README.md
+  229  git status
+  230  git add README.md 
+  231  git status
+  232  git rm --cached README.md 
+  233  git status
+  234  git add README.md 
+  235  git status
+  236  git commit -m "initial commit"
+  237  git log
+  238  q
+  239  nano README.md 
+  240  cat README.md 
+  241  git status
+  242  git status -s
+  243  git add README.md 
+  244  git status
+  245  git commit -m "second commit"
+  246  git log
+  247  nano README.md 
+  248  git status
+  249  git add README.md 
+  250  git status
+  251  git commit README.md -m "third commit"
+  252  git status
+  253  git log
+  254  cat README.md 
+  255  git checkout 27d9604dc827492bb5be562a00513771c59e6edb
+  256  cat README.md 
+  257  git branch 
+  258  git checkout master
+  259  cat README.md 
+  260  git branch 
+  261  git checkout -b milkshake-flavours
+  262  git branch
+  263  git checkout milkshake-flavours 
+  264  git checkout master 
+  265  git branch
+  266  git checkout milkshake-flavours 
+  267  nano milkshakes.md
+  268  git status
+  269  git add milkshakes.md 
+  270  git status
+  271  git commit -m "added initial flavours"
+  272  git log
+  273  git checkout master 
+  274  git log
+  275  git status
+  276  git checkout -b history
+  277  git history
+  278  git log
+  279  git branch 
+  280  history > history.txt
